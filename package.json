@@ -4,7 +4,9 @@
   "description": "Get information about an array of numbers",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "dev": "watch 'npm run build' src"
   },
   "keywords": [
     "numbers",
@@ -13,5 +15,10 @@
     "wolox"
   ],
   "author": "Andres Alcaraz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "watch": "^1.0.2"
+  }
 }
