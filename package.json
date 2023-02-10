@@ -1,0 +1,17 @@
+{
+  "name": "number-helpers-wolox",
+  "version": "1.0.0",
+  "description": "Get information about an array of numbers",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "numbers",
+    "array",
+    "helpers",
+    "wolox"
+  ],
+  "author": "Andres Alcaraz",
+  "license": "ISC"
+}
