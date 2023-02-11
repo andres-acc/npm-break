@@ -7,7 +7,8 @@
     "test": "jest",
     "build": "tsc -p tsconfig.json",
     "dev": "watch 'npm run build' src",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "numbers",
