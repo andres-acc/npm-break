@@ -42,7 +42,7 @@ This is a repo based on a break about npm.
   ```
     "rootDir": "./src",
     "moduleResolution": "node",       
-    "outDir": ".build/",
+    "outDir": "./build",
   ```
 
   Create file `.babelrc`
@@ -63,6 +63,8 @@ This is a repo based on a break about npm.
     ```
       console.log('Hello Wolox');
     ```
+  
+  > node src/index.ts
 
 4. Add base scripts
 
